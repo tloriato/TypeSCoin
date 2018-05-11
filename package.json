@@ -1,0 +1,33 @@
+{
+  "name": "typescoin",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "prestart": "npm run compile",
+    "start": "node src/main.js",
+    "compile": "tsc",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.15.2",
+    "cross-env": "^5.0.1",
+    "crypto-js": "^3.1.9-1",
+    "express": "~4.16.3",
+    "lodash": "^4.17.4",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.4.1",
+    "ws": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.4",
+    "@types/crypto-js": "^3.1.33",
+    "@types/express": "^4.0.36",
+    "@types/node": "^10.0.8",
+    "@types/ws": "^5.1.1",
+    "tslint": "^5.5.0"
+  }
+}
